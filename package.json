@@ -1,0 +1,17 @@
+{
+  "name": "node-sdk",
+  "version": "0.0.0",
+  "description": "Node.js SDK for OpenAura APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dean Hudson <dean@openaura.com> (http://developer.openaura.com/)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "restler": "~3.2.2",
+    "async": "~0.9.0",
+    "coffee-script": "~1.7.1",
+    "mocha": "~1.18.2"
+  }
+}
