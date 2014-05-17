@@ -1,6 +1,6 @@
 {
-  "name": "node-sdk",
-  "version": "0.0.0",
+  "name": "openaura-api",
+  "version": "0.0.5",
   "description": "Node.js SDK for OpenAura APIs",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,20 @@
   },
   "author": "Dean Hudson <dean@openaura.com> (http://developer.openaura.com/)",
   "license": "BSD-2-Clause",
+  "homepage": "http://developer.openaura.com",
+  "email": "developers@openaura.com",
   "dependencies": {
     "restler": "~3.2.2",
     "async": "~0.9.0",
     "coffee-script": "~1.7.1",
     "mocha": "~1.18.2"
+  },
+  "prepublish": "coffee -o lib/ -c src/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openaura/node-sdk"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
   }
 }
