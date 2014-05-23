@@ -7,6 +7,6 @@ Node.js SDK for OpenAura API
 
 openaura-api is available via npm, to install just:
 
-```npm install openaura-api``
+```npm install openaura-api```
 
 
